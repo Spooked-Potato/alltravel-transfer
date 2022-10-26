@@ -19,7 +19,7 @@ export default function NavbarComponent() {
           <select name="Lang" id="lang">
             <option value="PT">
               <div className="flag" id="pt">
-                pt
+                PT
               </div>
             </option>
             <option value="EN">EN</option>
