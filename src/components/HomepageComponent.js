@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import NavbarComponent from "./NavbarComponent";
 import SubNavCompoent from "./SubNavComponent";
 import loja from "../assets/loja.jpg";
