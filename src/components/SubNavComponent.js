@@ -1,6 +1,6 @@
 import React from "react";
 import whats from "../assets/svg/whats.svg";
-import email from "../assets/svg/email.svg";
+import email from "../assets/svg/mail.svg";
 import phone from "../assets/svg/phone.svg";
 
 export default function SubNavCompoent() {
