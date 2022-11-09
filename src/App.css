@@ -7,7 +7,8 @@
   --text-color: #363638;
   --button-bg-color: #ffdd57;
   --sub-nav-color: #eeeeee;
-  --text-size: 15px;
+  --shadow-color: #4a4a4a;
+  font-size: 15px;
 }
 
 *,
@@ -19,6 +20,7 @@
   font-family: "Poppins", sans-serif;
   line-height: 1.5;
   color: var(--text-color);
+  outline: 1px solid red;
   /* background-color: var(--main-bg-color); */
 }
 
@@ -29,7 +31,7 @@ body {
 }
 
 nav {
-  height: 100px;
+  height: 7rem;
   width: 100%;
   background-color: var(--main-bg-color);
   display: flex;
@@ -39,7 +41,7 @@ nav {
 #nav_logo {
   justify-content: center;
   display: flex;
-  width: 30%;
+  width: 30vw;
   align-items: center;
 }
 
@@ -123,32 +125,31 @@ nav ul li a {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 50vh;
+  max-width: 100%;
+  height: 70vh;
   filter: saturate(150%);
 }
 
 .section_shop {
-  border: 2px solid red;
+  height: 20vh;
+  padding: 5%;
 }
 
 .section_shop h2 {
   text-align: center;
+  padding: 5px;
 }
 
 .section_shop_container {
   height: auto;
-  width: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid black;
 }
 
 .box_container_section_shop {
-  width: 50%;
-  height: 50%;
-  border: 2px solid green;
+  width: 50vw;
+  padding: 5%;
 }
 
 #image_box_container_section_shop {
@@ -156,6 +157,8 @@ nav ul li a {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  width: 100%;
-  height: 50vh;
+  border-radius: 5px;
+  box-shadow: 0px 10px 12px var(--shadow-color);
+  width: 30%;
+  height: 40vh;
 }
