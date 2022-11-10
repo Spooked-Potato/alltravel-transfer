@@ -4,6 +4,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This project has a missing folder with images as such add your own images to make it work
 
+This is how the project is desgin:https://xd.adobe.com/view/059091b2-1dca-4182-b033-4e751709c723-50c3/
+
 ## Available Scripts
 
 In the project directory, you can run:
