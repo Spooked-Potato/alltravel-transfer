@@ -213,25 +213,46 @@ nav ul li a {
 }
 
 .card_container {
-  height: 90vh;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
-  gap: 5vw;
+  gap: 2vw;
   justify-content: center;
+  padding: 2rem;
 }
 
 .cardSwiper {
-  height: 70%;
-  width: 50%;
-  filter: saturate(150%);
+  height: 60vh;
+  width: 65%;
   background-color: transparent;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 10px 12px var(--shadow-color);
 }
 
-.card {
+.cardSwiper:hover {
+  height: 50%;
+}
+
+.location_swipper_name {
+  color: var(--white-color);
+  background-color: var(--main-bg-color);
+  height: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  box-shadow: 0px 3px 6px var(--shadow-color);
+}
+
+.location_swipper_text {
+  background-color: var(--white-color);
+  height: 2rem;
+}
+/* .card {
   width: 20vw;
   height: 50vh;
   filter: saturate(150%);
@@ -271,4 +292,4 @@ nav ul li a {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-}
+} */

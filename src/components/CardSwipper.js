@@ -35,8 +35,8 @@ export default function CardSwipper() {
               style={{ backgroundImage: `url(${element.image})` }}
               alt=""
             >
-              {element.name}
-              {element.text}
+              <div className="location_swipper_name">{element.name}</div>
+              <div className="location_swipper_text">{element.text}</div>
             </div>
           </SwiperSlide>
         ))}
