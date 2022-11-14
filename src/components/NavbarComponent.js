@@ -15,7 +15,7 @@ export default function NavbarComponent() {
           </li>
 
           <li className="underline_effect">
-            <Link to="/">Aiport Transfer</Link>
+            <Link to="/">Airport Transfer</Link>
           </li>
 
           <li className="underline_effect">

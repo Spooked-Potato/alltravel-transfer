@@ -5,7 +5,7 @@ import { CardComponent } from "./CardComponent";
 export function CardGrid() {
   return (
     <>
-      <div className="card-container">
+      <div>
         {data.map((element) => (
           <CardComponent
             key={element.id}

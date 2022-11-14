@@ -63,4 +63,4 @@ export const data = [
   },
 ];
 
-export const slice = data.slice(0, 6);
+export const slice = data.slice(0, 9);
