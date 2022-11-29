@@ -50,7 +50,12 @@ export default function HomePageComponent() {
         <div className="card_container">
           <CardSwipper></CardSwipper>
         </div>
+      </section> 
+
+      <section className="hr_section">
+        <hr></hr>
       </section>
+      <section></section>
     </>
   );
 }
