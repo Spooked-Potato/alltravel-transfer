@@ -53,9 +53,23 @@ export default function HomePageComponent() {
       </section> 
 
       <section className="hr_section">
-        <hr></hr>
+        <hr/>
       </section>
-      <section></section>
+      <section className="grid_homepage">
+        <h2>Our services</h2>
+        <div className="container_grid">
+          <div className="container_grid_img" style={{backgroundImage: `url(./assets/airport-transfer.png)`}}></div>
+          <h3>Lorem Ipsum </h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+          <div className="container_grid_img" style={{backgroundImage: `url(./assets/taxi.png)`}}></div>
+          <h3>Lorem Ipsum </h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+          <div className="container_grid_img" style={{backgroundImage: `url(./assets/you.png)`}}></div>
+          <h3>Lorem Ipsum </h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        </div>
+
+      </section>
     </>
   );
 }
