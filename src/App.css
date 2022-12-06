@@ -257,8 +257,54 @@ nav ul li a {
 }
 
 .grid_homepage {
-  text-align: center;
   display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: auto;
+  grid-template-areas:
+    ". title ."
+    "airport-transfer private-transfer transfer-algarve";
+}
+
+.grid-item-1 {
+  grid-area: title;
+  text-align: center;
+}
+
+.grid-item-2 {
+  grid-area: airport-transfer;
+  padding: 2rem;
+}
+
+.grid-item-3 {
+  grid-area: private-transfer;
+  padding: 2rem;
+}
+
+.grid-item-4 {
+  grid-area: transfer-algarve;
+  padding: 2rem;
+}
+
+.grid_circle {
+  background-color: var(--main-bg-color);
+  height: 20rem;
+  width: 20rem;
+  border-radius: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+/* 
+.grid_circle img {
+} */
+
+.grid_title {
+  text-align: center;
+  padding: 20px;
+}
+
+.grid_text {
+  text-align: justify;
 }
 
 /* .card {

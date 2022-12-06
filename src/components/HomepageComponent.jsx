@@ -3,7 +3,9 @@ import NavbarComponent from "./NavbarComponent";
 import SubNavCompoent from "./SubNavComponent";
 import CardSwipper from "./CardSwipper";
 import BookingForm from "./BookingFormComponent";
-import loja from "../assets/loja.jpg";
+import taxi from "../assets/you.png";
+import you from "../assets/taxi.png";
+import transfer from "../assets/airport-transfer.png";
 
 export default function HomePageComponent() {
   return (
@@ -50,26 +52,62 @@ export default function HomePageComponent() {
         <div className="card_container">
           <CardSwipper></CardSwipper>
         </div>
-      </section> 
+      </section>
 
       <section className="hr_section">
-        <hr/>
+        <hr />
       </section>
+
       <section className="grid_homepage">
-        <h2>Our services</h2>
-        <div className="container_grid">
-          <div className="container_grid_img" style={{backgroundImage: `url(./assets/airport-transfer.png)`}}></div>
-          <h3>Lorem Ipsum </h3>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-          <div className="container_grid_img" style={{backgroundImage: `url(./assets/taxi.png)`}}></div>
-          <h3>Lorem Ipsum </h3>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-          <div className="container_grid_img" style={{backgroundImage: `url(./assets/you.png)`}}></div>
-          <h3>Lorem Ipsum </h3>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+        <div className="grid-item-1">
+          <h2>test</h2>
         </div>
 
-      </section>
+        <div className="grid-item-2">
+            <div className="grid_circle">
+               <img src={you} alt="whats_app_svg" /> 
+            </div>
+            <div className="grid_title">
+              <h2>test</h2>
+            </div>
+            <div className="grid_text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim
+              amet dolor, eligendi earum, magnam nostrum architecto corporis
+              blanditiis, consequuntur voluptatem ad autem officiis aut. Saepe
+              porro deleniti vel sunt repellat.
+            </div>
+        </div>
+
+        <div className="grid-item-3">        
+            <div className="grid_circle">
+               <img src={taxi} alt="whats_app_svg" /> 
+            </div>
+            <div className="grid_title">
+              <h2>test</h2>
+            </div>
+            <div className="grid_text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim
+              amet dolor, eligendi earum, magnam nostrum architecto corporis
+              blanditiis, consequuntur voluptatem ad autem officiis aut. Saepe
+              porro deleniti vel sunt repellat.
+            </div>
+        </div>
+
+        <div className="grid-item-4">          
+            <div className="grid_circle">
+              <img src={transfer} alt="whats_app_svg" /> 
+            </div>
+            <div className="grid_title">
+              <h2>test</h2>
+            </div>
+            <div className="grid_text">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim
+              amet dolor, eligendi earum, magnam nostrum architecto corporis
+              blanditiis, consequuntur voluptatem ad autem officiis aut. Saepe
+              porro deleniti vel sunt repellat.
+            </div>
+        </div>
+      </section>  
     </>
   );
 }
