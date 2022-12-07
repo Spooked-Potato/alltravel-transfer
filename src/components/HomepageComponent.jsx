@@ -71,10 +71,12 @@ export default function HomePageComponent() {
               <h2>test</h2>
             </div>
             <div className="grid_text">
+            <h3>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim
               amet dolor, eligendi earum, magnam nostrum architecto corporis
               blanditiis, consequuntur voluptatem ad autem officiis aut. Saepe
               porro deleniti vel sunt repellat.
+              </h3>
             </div>
         </div>
 
@@ -86,10 +88,12 @@ export default function HomePageComponent() {
               <h2>test</h2>
             </div>
             <div className="grid_text">
+            <h3>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim
               amet dolor, eligendi earum, magnam nostrum architecto corporis
               blanditiis, consequuntur voluptatem ad autem officiis aut. Saepe
               porro deleniti vel sunt repellat.
+              </h3>
             </div>
         </div>
 
@@ -101,13 +105,19 @@ export default function HomePageComponent() {
               <h2>test</h2>
             </div>
             <div className="grid_text">
+              <h3>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim
               amet dolor, eligendi earum, magnam nostrum architecto corporis
               blanditiis, consequuntur voluptatem ad autem officiis aut. Saepe
               porro deleniti vel sunt repellat.
+              </h3>
             </div>
         </div>
       </section>  
+
+      <section>
+        <h2></h2>
+      </section>
     </>
   );
 }
