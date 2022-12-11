@@ -33,7 +33,7 @@ export default function CardSwipper() {
             <div
               className="cardSwiper"
               style={{ backgroundImage: `url(${element.image})` }}
-              alt=""
+              alt="Citys in the Algarve"
             >
               <div className="cardName">{element.name}</div>
               <div className="cardText">{element.text}</div>

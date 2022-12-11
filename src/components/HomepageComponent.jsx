@@ -6,6 +6,9 @@ import BookingForm from "./BookingFormComponent";
 import taxi from "../assets/you.png";
 import you from "../assets/taxi.png";
 import transfer from "../assets/airport-transfer.png";
+import loja from "../assets/loja.jpg";
+import golf from "../assets/private-golf-transfers-algarve.png";
+import park from "../assets/transport-aquatic-park-algarve.png";
 
 export default function HomePageComponent() {
   return (
@@ -16,13 +19,13 @@ export default function HomePageComponent() {
         <div className="form_hero_section"></div>
       </section>
 
-      <section className="section_shop">
+      <section className="section_homepage">
         <h1>
           Faro Airport Transfer service, thinking about you and your family.
         </h1>
 
-        <div className="section_shop_container">
-          <div className="box_container_section_shop">
+        <div className="section_homepage_container">
+          <div className="box_container_section_homepage">
             <p>
               Our Travel Agency has been in the private transportation market
               since 2007, with a multidisciplinary team dedicated to providing
@@ -38,10 +41,11 @@ export default function HomePageComponent() {
               accommodation, ready to transport you to Faro Airport.
             </p>
           </div>
-          <div
-            className="box_container_section_shop"
-            id="image_box_container_section_shop"
-          ></div>
+          <div className="box_container_section_homepage">
+            <div className="image_box_container_homepage">
+              <img src={loja} alt="whats_app_svg" />
+            </div>
+          </div>
         </div>
       </section>
 
@@ -50,7 +54,7 @@ export default function HomePageComponent() {
           Some destanations <strong>YOU</strong> should vist
         </h2>
         <div className="card_container">
-          <CardSwipper></CardSwipper>
+          <CardSwipper />
         </div>
       </section>
 
@@ -64,59 +68,75 @@ export default function HomePageComponent() {
         </div>
 
         <div className="grid-item-2">
-            <div className="grid_circle">
-               <img src={you} alt="whats_app_svg" /> 
-            </div>
-            <div className="grid_title">
-              <h2>test</h2>
-            </div>
-            <div className="grid_text">
+          <div className="grid_circle">
+            <img src={you} alt="whats_app_svg" />
+          </div>
+          <div className="grid_title">
+            <h2>test</h2>
+          </div>
+          <div className="grid_text">
             <h3>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim
               amet dolor, eligendi earum, magnam nostrum architecto corporis
               blanditiis, consequuntur voluptatem ad autem officiis aut. Saepe
               porro deleniti vel sunt repellat.
-              </h3>
-            </div>
+            </h3>
+          </div>
         </div>
 
-        <div className="grid-item-3">        
-            <div className="grid_circle">
-               <img src={taxi} alt="whats_app_svg" /> 
-            </div>
-            <div className="grid_title">
-              <h2>test</h2>
-            </div>
-            <div className="grid_text">
+        <div className="grid-item-3">
+          <div className="grid_circle">
+            <img src={taxi} alt="whats_app_svg" />
+          </div>
+          <div className="grid_title">
+            <h2>test</h2>
+          </div>
+          <div className="grid_text">
             <h3>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim
               amet dolor, eligendi earum, magnam nostrum architecto corporis
               blanditiis, consequuntur voluptatem ad autem officiis aut. Saepe
               porro deleniti vel sunt repellat.
-              </h3>
-            </div>
+            </h3>
+          </div>
         </div>
 
-        <div className="grid-item-4">          
-            <div className="grid_circle">
-              <img src={transfer} alt="whats_app_svg" /> 
-            </div>
-            <div className="grid_title">
-              <h2>test</h2>
-            </div>
-            <div className="grid_text">
-              <h3>
+        <div className="grid-item-4">
+          <div className="grid_circle">
+            <img src={transfer} alt="whats_app_svg" />
+          </div>
+          <div className="grid_title">
+            <h2>test</h2>
+          </div>
+          <div className="grid_text">
+            <h3>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim
               amet dolor, eligendi earum, magnam nostrum architecto corporis
               blanditiis, consequuntur voluptatem ad autem officiis aut. Saepe
               porro deleniti vel sunt repellat.
-              </h3>
-            </div>
+            </h3>
+          </div>
         </div>
-      </section>  
+      </section>
 
-      <section>
-        <h2></h2>
+      <section className="section_homepage">
+        <h2>Test</h2>
+        <div className="section_homepage_container">
+          <div className="box_container_section_homepage">
+            <h3>
+              Our Travel Agency has been in the private transportation market
+              since 2007, with a multidisciplinary team dedicated to providing
+              the best transfer service in the Algarve. Also, you can check our
+              rentals for holidays in Portimão and various experiences.
+            </h3>
+          </div>
+          <div className="box_container_section_homepage">
+            <div className="double_image_section_homepage">
+              <img src={golf} alt="whats_app_svg" />
+              <img src={park} alt="whats_app_svg" />
+            </div>
+          </div>
+        </div>
       </section>
     </>
   );
