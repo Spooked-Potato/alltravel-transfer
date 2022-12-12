@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../assets/logo_sc.png";
+import reclamacoes from "../assets/reclamacoes.png";
 
 export default function FooterComponent() {
   return (
@@ -100,6 +101,10 @@ export default function FooterComponent() {
           </ul>
         </div>
       </footer>
+      <div className="sub_footer">
+        <p>© 2022 AllTravel, Lda. All rights reserved.</p>
+        <img src={reclamacoes} alt="Livro de reclamções | Complain book" />
+      </div>
     </>
   );
 }

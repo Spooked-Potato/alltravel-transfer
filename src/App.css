@@ -388,6 +388,7 @@ footer {
 footer h2 {
   color: var(--white-color);
   text-align: center;
+  text-transform: uppercase;
 }
 
 footer li {
@@ -398,6 +399,25 @@ footer ul li a {
   color: var(--white-color) !important;
   text-decoration: none;
   font-size: clamp(min(0.25rem, 0.5rem), 0.75rem, max(1.5rem, 2rem));
+}
+
+.sub_footer {
+  display: flex;
+  background-color: var(--sub-nav-color);
+  height: 2rem;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.sub_footer p {
+  padding: 0 2rem;
+  font-size: clamp(min(0.25rem, 0.5rem), 0.75rem, max(1.5rem, 2rem));
+}
+
+.sub_footer img {
+  padding: 0 2rem;
+  height: 90%;
 }
 
 /* .card {

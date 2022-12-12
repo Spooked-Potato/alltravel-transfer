@@ -1,8 +1,13 @@
 import React from "react";
+
+//components
+import FooterComponent from "./FooterComponent";
 import NavbarComponent from "./NavbarComponent";
 import SubNavCompoent from "./SubNavComponent";
 import CardSwipper from "./CardSwipper";
-import BookingForm from "./BookingFormComponent";
+// import BookingForm from "./BookingFormComponent";
+
+//images
 import taxi from "../assets/you.png";
 import you from "../assets/taxi.png";
 import transfer from "../assets/airport-transfer.png";
@@ -138,6 +143,8 @@ export default function HomePageComponent() {
           </div>
         </div>
       </section>
+      <FooterComponent/>
+      
     </>
   );
 }
