@@ -3,23 +3,22 @@ import React from "react";
 //components
 import FooterComponent from "./FooterComponent";
 import NavbarComponent from "./NavbarComponent";
-import SubNavCompoent from "./SubNavComponent";
 import CardSwipper from "./CardSwipper";
 // import BookingForm from "./BookingFormComponent";
 
 //images
-import taxi from "../assets/you.png";
-import you from "../assets/taxi.png";
-import transfer from "../assets/airport-transfer.png";
-import loja from "../assets/loja.jpg";
-import golf from "../assets/private-golf-transfers-algarve.png";
-import park from "../assets/transport-aquatic-park-algarve.png";
+import taxi from "../assets/img-normal/you.png";
+import you from "../assets/img-normal/taxi.png";
+import transfer from "../assets/img-normal/airport-transfer.png";
+import loja from "../assets/img-normal/loja.jpg";
+import golf from "../assets/img-normal/private-golf-transfers-algarve.png";
+import park from "../assets/img-normal/transport-aquatic-park-algarve.png";
 
 export default function HomePageComponent() {
   return (
     <>
       <NavbarComponent />
-      <SubNavCompoent />
+   
       <section className="hero_section">
         <div className="form_hero_section"></div>
       </section>
@@ -137,8 +136,8 @@ export default function HomePageComponent() {
           </div>
           <div className="box_container_section_homepage">
             <div className="double_image_section_homepage">
-              <img src={golf} alt="whats_app_svg" />
-              <img src={park} alt="whats_app_svg" />
+              <img src={golf} alt="whats_app_svg" /> 
+              <img src={park} alt="whats_app_svg" /> 
             </div>
           </div>
         </div>

@@ -62,14 +62,56 @@ body {
 }
 
 nav {
-  height: 5rem;
-  width: 100%;
+  display: grid;
+  grid-template-columns: 40% repeat(6, 10%);
+  grid-template-areas: "imgnavlogo holidayrental airportransfer activities aboutus contactus langnav";
   background-color: var(--main-bg-color);
-  display: flex;
-  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
 }
 
-#nav_logo {
+.grid-nav-item-1 {
+  grid-column-start: 1;
+  grid-area: imgnavlogo;
+}
+
+.grid-nav-item-2 {
+  grid-area: holidayrental;
+}
+
+.grid-nav-item-3 {
+  grid-area: airportransfer;
+}
+
+.grid-nav-item-4 {
+  grid-area: activities;
+}
+
+.grid-nav-item-5 {
+  grid-area: aboutus;
+}
+
+.grid-nav-item-6 {
+  grid-area: contactus;
+}
+
+.grid-nav-item-7 {
+  grid-area: langnav;
+}
+
+.grid-nav-item-1,
+.grid-nav-item-2,
+.grid-nav-item-3,
+.grid-nav-item-4,
+.grid-nav-item-5,
+.grid-nav-item-6,
+.grid-nav-item-7 {
+  text-align: center;
+  color: var(--white-color) !important;
+  font-size: clamp(min(0.25rem, 0.5rem), 0.75rem, max(1.5rem, 2rem));
+}
+
+/* #nav_logo {
   justify-content: center;
   display: flex;
   width: 30vw;
@@ -79,28 +121,10 @@ nav {
 #nav_logo img {
   height: auto;
   max-width: 50%;
-}
-
-nav ul {
-  width: 60%;
-  display: flex;
-  align-items: center;
-  list-style-type: none;
-  padding: 1rem;
-  justify-content: space-evenly;
-}
-
-nav ul li {
-  padding: 5px;
-}
-
-nav ul li a {
-  color: var(--white-color) !important;
-  text-decoration: none;
-  font-size: clamp(min(0.25rem, 0.5rem), 0.75rem, max(1.5rem, 2rem));
-}
+} */
 
 .underline_effect {
+  text-decoration: none;
   --s: 0.1em; /* the thickness of the line */
   --c: var(--white-color); /* the color */
 
@@ -152,8 +176,10 @@ nav ul li a {
   color: var(--second-bg-color);
 }
 
+/*Nav-bar-end*/
+
 .hero_section {
-  background-image: url(./assets/van-1.jpg);
+  background-image: url(./assets/img-normal/van-1.jpg);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -231,12 +257,12 @@ nav ul li a {
   justify-content: center;
   padding: 2rem;
   margin: 0 auto;
-  width: 90%;
+  width: 100%;
 }
 
 .cardSwiper {
   height: 20rem;
-  width: 50%;
+  width: 60%;
   filter: saturate(150%);
   background-color: transparent;
   background-position: center center;
@@ -344,6 +370,48 @@ nav ul li a {
   box-shadow: 0px 10px 12px var(--shadow-color);
 }
 
+/*Booking-Part*/
+
+form {
+  width: 70%;
+  height: auto;
+  background-color: var(--main-bg-color);
+  border-radius: 0.25rem;
+  margin: 0 auto;
+}
+
+form h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--white-color);
+}
+
+.form-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  column-gap: 1rem;
+  border: 2px solid black;
+  color: var(--white-color);
+}
+
+.form-group label {
+  color: var(--white-color);
+}
+
+.form-grid-item-1 input,
+.form-grid-item-2 input,
+.form-grid-item-3 input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/*Footer*/
+
 footer {
   display: grid;
   grid-template-columns: auto;
@@ -356,7 +424,8 @@ footer {
     ". . information services followus contactus"
     ". . information services followus contactus"
     ". . information services followus contactus"
-    ". . information services followus contactus";
+    ". . information services followus contactus"
+    ". . . . . .";
   padding: 2rem;
   background-color: var(--main-bg-color);
   justify-items: center;
@@ -404,22 +473,28 @@ footer ul li a {
 .sub_footer {
   display: flex;
   background-color: var(--sub-nav-color);
-  height: 2rem;
+  height: 3rem;
   width: 100%;
   justify-content: flex-end;
   align-items: center;
 }
 
 .sub_footer p {
-  padding: 0 2rem;
+  padding: 0 3rem;
   font-size: clamp(min(0.25rem, 0.5rem), 0.75rem, max(1.5rem, 2rem));
 }
 
 .sub_footer img {
-  padding: 0 2rem;
+  padding: 0 3rem;
   height: 90%;
 }
 
+/* .hr_footer {
+  width: 100%;
+  padding-bottom: 1rem;
+  margin: 0 auto;
+  background-color: var(--main-bg-color);
+} */
 /* .card {
   width: 20vw;
   height: 50vh;
