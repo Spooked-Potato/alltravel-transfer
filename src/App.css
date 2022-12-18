@@ -376,8 +376,9 @@ form {
   width: 70%;
   height: auto;
   background-color: var(--main-bg-color);
-  border-radius: 0.25rem;
+  border-radius: 1rem;
   margin: 0 auto;
+  padding: 2rem;
 }
 
 form h2 {
@@ -390,8 +391,8 @@ form h2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
+  row-gap: 1rem;
   column-gap: 1rem;
-  border: 2px solid black;
   color: var(--white-color);
 }
 
@@ -403,9 +404,8 @@ form h2 {
 .form-grid-item-2 input,
 .form-grid-item-3 input {
   width: 100%;
-  padding: 12px 20px;
+  padding: 0.5rem;
   margin: 8px 0;
-  display: inline-block;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
@@ -475,13 +475,13 @@ footer ul li a {
   background-color: var(--sub-nav-color);
   height: 3rem;
   width: 100%;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
 }
 
 .sub_footer p {
   padding: 0 3rem;
-  font-size: clamp(min(0.25rem, 0.5rem), 0.75rem, max(1.5rem, 2rem));
+  font-size: clamp(0.5rem, 0.4421rem + 0.2857vw, 0.625rem);
 }
 
 .sub_footer img {
