@@ -14,23 +14,23 @@ export default function FooterComponent() {
         <div className="grid-footer-item-2">
           <ul>
             <h2>test</h2>
-            <li className="">
+            <li className="underline_effect">
               <Link to="/footer">Holiday Rental</Link>
             </li>
 
-            <li className="">
+            <li className="underline_effect">
               <Link to="/">Holiday Rental</Link>
             </li>
 
-            <li className="">
+            <li className="underline_effect">
               <Link to="/">Holiday Rental</Link>
             </li>
 
-            <li className="">
+            <li className="underline_effect">
               <Link to="/">Holiday Rental</Link>
             </li>
 
-            <li className="">
+            <li className="underline_effect">
               <Link to="/">Holiday Rental</Link>
             </li>
           </ul>
@@ -39,15 +39,15 @@ export default function FooterComponent() {
         <div className="grid-footer-item-3">
           <ul>
             <h2>test</h2>
-            <li className="">
+            <li className="underline_effect">
               <Link to="/">Holiday Rental</Link>
             </li>
 
-            <li className="">
+            <li className="underline_effect">
               <Link to="/">Holiday Rental</Link>
             </li>
 
-            <li className="">
+            <li className="underline_effect">
               <Link to="/">Holiday Rental</Link>
             </li>
           </ul>
@@ -56,23 +56,23 @@ export default function FooterComponent() {
         <div className="grid-footer-item-4">
           <ul>
             <h2>test</h2>
-            <li className="">
+            <li className="underline_effect">
               <Link to="/">Holiday Rental</Link>
             </li>
 
-            <li className="">
+            <li className="underline_effect">
               <Link to="/">Holiday Rental</Link>
             </li>
 
-            <li className="">
+            <li className="underline_effect">
               <Link to="/">Holiday Rental</Link>
             </li>
 
-            <li className="">
+            <li className="underline_effect">
               <Link to="/">Holiday Rental</Link>
             </li>
 
-            <li className="">
+            <li className="underline_effect">
               <Link to="/">Holiday Rental</Link>
             </li>
           </ul>
@@ -81,19 +81,19 @@ export default function FooterComponent() {
         <div className="grid-footer-item-5">
           <ul>
             <h2>test</h2>
-            <li className="">
+            <li className="underline_effect">
               <Link to="/">Holiday Rental</Link>
             </li>
 
-            <li className="">
+            <li className="underline_effect">
               <Link to="/">Holiday Rental</Link>
             </li>
 
-            <li className="">
+            <li className="underline_effect">
               <Link to="/">Holiday Rental</Link>
             </li>
 
-            <li className="">
+            <li className="underline_effect">
               <Link to="/">Holiday Rental</Link>
             </li>
           </ul>

@@ -76,15 +76,15 @@ export default function HomePageComponent() {
             <img src={you} alt="whats_app_svg" />
           </div>
           <div className="grid_title">
-            <h2>test</h2>
+            <h3>test</h3>
           </div>
           <div className="grid_text">
-            <h3>
+            <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim
               amet dolor, eligendi earum, magnam nostrum architecto corporis
               blanditiis, consequuntur voluptatem ad autem officiis aut. Saepe
               porro deleniti vel sunt repellat.
-            </h3>
+            </p>
           </div>
         </div>
 
@@ -93,15 +93,15 @@ export default function HomePageComponent() {
             <img src={taxi} alt="whats_app_svg" />
           </div>
           <div className="grid_title">
-            <h2>test</h2>
+            <h3>test</h3>
           </div>
           <div className="grid_text">
-            <h3>
+            <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim
               amet dolor, eligendi earum, magnam nostrum architecto corporis
               blanditiis, consequuntur voluptatem ad autem officiis aut. Saepe
               porro deleniti vel sunt repellat.
-            </h3>
+            </p>
           </div>
         </div>
 
@@ -110,31 +110,32 @@ export default function HomePageComponent() {
             <img src={transfer} alt="whats_app_svg" />
           </div>
           <div className="grid_title">
-            <h2>test</h2>
+            <h3>test</h3>
           </div>
           <div className="grid_text">
-            <h3>
+            <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim
               amet dolor, eligendi earum, magnam nostrum architecto corporis
               blanditiis, consequuntur voluptatem ad autem officiis aut. Saepe
               porro deleniti vel sunt repellat.
-            </h3>
+            </p>
           </div>
         </div>
       </section>
 
-      <section className="section_homepage">
+      <section className="section_final">
         <h2>Test</h2>
         <div className="section_homepage_container">
-          <div className="box_container_section_homepage">
-            <h3>
+          <div className="box_container_section_final">
+            <p>
               Our Travel Agency has been in the private transportation market
               since 2007, with a multidisciplinary team dedicated to providing
               the best transfer service in the Algarve. Also, you can check our
               rentals for holidays in Portimão and various experiences.
-            </h3>
+            
+            </p>
           </div>
-          <div className="box_container_section_homepage">
+          <div className="box_container_section_final">
             <div className="double_image_section_homepage">
               <img src={golf} alt="whats_app_svg" /> 
               <img src={park} alt="whats_app_svg" /> 
