@@ -450,6 +450,28 @@ form h2 {
   background-color: var(--white-color);
 }
 
+.form-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-flex-container {
+  width: 25%;
+}
+
+.form-flex-container > label {
+  width: 100%;
+  color: var(--white-color);
+  white-space: nowrap;
+  font-size: clamp(0.6rem, 1vw, 1.25rem);
+}
+.form-flex-container > input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
 .space_form {
   padding: 2rem;
 }
