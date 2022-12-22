@@ -7,11 +7,11 @@ export default function ThankYouComponent() {
     <>
       <NavbarComponent />
 
-      <h1>thank you for booking with us!</h1>
       <div className="thankYouImage">
+      <h1>thank you for booking with us!</h1>
         <img />
-      </div>
       <p>!imporant! - Your booking has been send to your inbox</p>
+      </div>
 
       <div className="socialThankYoubox">
         <h2>Follow us</h2>

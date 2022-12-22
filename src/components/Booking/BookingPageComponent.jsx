@@ -1,7 +1,7 @@
 import React from "react";
 
-import NavbarComponent from "./NavbarComponent";
-import FooterComponent from "./FooterComponent";
+import NavbarComponent from "../NavbarComponent";
+import FooterComponent from "../FooterComponent";
 import BookingExtraInfoComponent from "./BookingExtraInfoComponent";
 import BookingPersonalinfoComponent from "./BookingPersonalinfoComponent";
 

@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function HBookingExtraInfoComponent() {
+export default function BookingExtraInfoComponent() {
   return (
     <>
       <form>
@@ -21,7 +21,7 @@ export default function HBookingExtraInfoComponent() {
           <div className="form-grid-item">
             <label>Where did you find us?</label>
             <select name="Where did you find us?" id="lang" required>
-              <option value="Select an option" required>
+              <option value="Select an option">
                 Select an option...
               </option>
               <option value="Frequent Client">Frequent Client</option>

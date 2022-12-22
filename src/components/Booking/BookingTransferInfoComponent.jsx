@@ -15,27 +15,27 @@ export default function BookingTransferInfoComponent() {
             <input type="tel" name="tel" placeholder="Telephone Number" />
           </div>
           <div className="form-grid-item">
-            <label>Email</label>
+            <label>Number of People</label>
             <input type="email" name="emai0l" placeholder="Email" />
           </div>
           <div className="form-grid-item">
-            <label>Email</label>
+            <label>From</label>
             <input type="email" name="emai0l" placeholder="Email" />
           </div>
           <div className="form-grid-item">
-            <label>Email</label>
+            <label>To</label>
             <input type="email" name="emai0l" placeholder="Email" />
           </div>
           <div className="form-grid-item">
-            <label>Email</label>
+            <label>Flight Number</label>
             <input type="email" name="emai0l" placeholder="Email" />
           </div>
           <div className="form-grid-item">
-            <label>Email</label>
+            <label>Arrival Time</label>
             <input type="email" name="emai0l" placeholder="Email" />
           </div>
           <div className="form-grid-item">
-            <label>Email</label>
+            <label>Apartment or Hotel</label>
             <input type="email" name="emai0l" placeholder="Email" />
           </div>
         </div>
