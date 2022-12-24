@@ -51,15 +51,20 @@ export default function BookingTransferInfoComponent({ heading }) {
             <div className="form-flex">
               <div className="form-flex-container">
                 <label>Baby Seat</label>
-                <input type="number" name="babyseat" value={0} min={0} />
+                <input type="number" name="babyseat" placeholder="0" max={10} />
               </div>
               <div className="form-flex-container">
                 <label>Booster Seat</label>
-                <input type="number" name="boosterseat" value={0} min={0} />
+                <input
+                  type="number"
+                  name="boosterseat"
+                  placeholder="0"
+                  max={10}
+                />
               </div>
               <div className="form-flex-container">
                 <label>Golf Bags</label>
-                <input type="number" name="golfbags" value={0} min={0} />
+                <input type="number" name="golfbags" placeholder="0" max={30} />
               </div>
             </div>
           </div>

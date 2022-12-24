@@ -21,6 +21,7 @@ export default function BookingPageComponent() {
         <BookingTransferInfoComponent heading={"Transfer Information"} />
       </div>
 
+
       <div className="space_form">
         <BookingExtraInfoComponent />
       </div>
