@@ -18,7 +18,7 @@ export default function HomePageComponent() {
   return (
     <>
       <NavbarComponent />
-   
+
       <section className="hero_section">
         <div className="form_hero_section"></div>
       </section>
@@ -123,28 +123,32 @@ export default function HomePageComponent() {
         </div>
       </section>
 
-      <section className="section_final">
-        <h2>Test</h2>
-        <div className="section_homepage_container">
-          <div className="box_container_section_final">
-            <p>
-              Our Travel Agency has been in the private transportation market
-              since 2007, with a multidisciplinary team dedicated to providing
-              the best transfer service in the Algarve. Also, you can check our
-              rentals for holidays in Portimão and various experiences.
-            
-            </p>
+      <section className="grid-container">
+        <div className="grid-container-item-1">
+          <h2>Test</h2>
+        </div>
+        <div className="grid-container-item-2">
+          <p>
+            Our Travel Agency has been in the private transportation market
+            since 2007, with a multidisciplinary team dedicated to providing the
+            best transfer service in the Algarve. Also, you can check our
+            rentals for holidays in Portimão and various experiences.
+          </p>
+        </div>
+
+        <div className="grid-container-item-3">
+          <div className="grid-contianer-img-container">
+            <img src={golf} alt="whats_app_svg" />
           </div>
-          <div className="box_container_section_final">
-            <div className="double_image_section_homepage">
-              <img src={golf} alt="whats_app_svg" /> 
-              <img src={park} alt="whats_app_svg" /> 
-            </div>
+        </div>
+        <div className="grid-container-item-4">
+          <div className="grid-contianer-img-container">
+            <img src={park} alt="whats_app_svg" />
           </div>
         </div>
       </section>
-      <FooterComponent/>
-      
+
+      <FooterComponent />
     </>
   );
 }
