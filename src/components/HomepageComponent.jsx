@@ -17,18 +17,33 @@ import park from "../assets/img-normal/transport-aquatic-park-algarve.png";
 export default function HomePageComponent() {
   return (
     <>
-      <NavbarComponent />
+      {/* <NavbarComponent /> */}
 
       <section className="hero_section">
-        <div className="form_hero_section"></div>
+        <div className="form_hero_container">
+          <form>
+            <label>Where you coming from?</label>
+            <input/>
+            <label>Where are you going to?</label>
+            <input/>
+            <label>Number of People</label>
+            <input/>
+            <label>Date</label>
+            <input/>
+            <label>Add Return</label>
+            <input type="checkbox"/>
+            <button>Book Now</button>
+            <button>What's App</button>
+          </form>
+        </div>
       </section>
 
-      <section className="section_homepage">
+      <section className="first_homepage_section">
         <h1>
           Faro Airport Transfer service, thinking about you and your family.
         </h1>
 
-        <div className="section_homepage_container">
+        <div className="">
           <div className="box_container_section_homepage">
             <p>
               Our Travel Agency has been in the private transportation market
@@ -148,7 +163,12 @@ export default function HomePageComponent() {
         </div>
       </section>
 
-      <FooterComponent />
+
+      {/* <section  className="google-comments-container">
+        
+      </section> */}
+
+      {/* <FooterComponent /> */}
     </>
   );
 }

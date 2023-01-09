@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/img-normal/logo_sc.png";
+import logo from "../assets/svg/logoalltravel.svg";
 import reclamacoes from "../assets/img-normal/reclamacoes.png";
 
 export default function FooterComponent() {

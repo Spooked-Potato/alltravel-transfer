@@ -1,14 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../assets/img-normal/logo_sc.png";
 import SubNavCompoent from "./SubNavComponent";
+import logoalltravel from "../assets/svg/logoalltravel.svg";
 
 export default function NavbarComponent() {
   return (
     <>
       <nav>
         <div className="grid-nav-item-1">
-          <img src={logo} alt="logo_alltravel" />
+          <img src={logoalltravel} alt="logo_alltravel" />
         </div>
 
         <div className="grid-nav-item-2">
