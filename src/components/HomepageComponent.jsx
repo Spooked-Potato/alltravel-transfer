@@ -23,34 +23,33 @@ export default function HomePageComponent() {
         <div className="form_hero_container">
           <form>
             <label>Where you coming from?</label>
-            <input/>
+            <input />
             <label>Where are you going to?</label>
-            <input/>
+            <input />
             <label>Number of People</label>
-            <input/>
+            <input />
             <label>Date</label>
-            <input/>
+            <input />
             <label>Add Return</label>
-            <input type="checkbox"/>
+            <input type="checkbox" />
             <button>Book Now</button>
             <button>What's App</button>
           </form>
         </div>
       </section>
 
-      <section className="first_homepage_section">
+      <section className="main_section">
         <h1>
           Faro Airport Transfer service, thinking about you and your family.
         </h1>
 
-        <div className="">
-          <div className="box_container_section_homepage">
+        <div className="main_wrapper">
+          <div className="main_box">
             <p>
               Our Travel Agency has been in the private transportation market
               since 2007, with a multidisciplinary team dedicated to providing
               the best transfer service in the Algarve. Also, you can check our
               rentals for holidays in Portimão and various experiences.
-              <br />
               <br />
               Your arrival at Faro Airport will be more relaxed, because our
               driver will be waiting for you in the arrivals area, with a name
@@ -60,18 +59,14 @@ export default function HomePageComponent() {
               accommodation, ready to transport you to Faro Airport.
             </p>
           </div>
-          <div className="box_container_section_homepage">
-            <div className="image_box_container_homepage">
-              <img src={loja} alt="whats_app_svg" />
-            </div>
+          <div className="main_box">
+            <img src={loja} alt="whats_app_svg" />
           </div>
         </div>
       </section>
 
       <section className="section_card">
-        <h2>
-          Some destanations <strong>YOU</strong> should vist
-        </h2>
+        <h2>Some destanations YOU should vist</h2>
         <div className="card_container">
           <CardSwipper />
         </div>
@@ -81,68 +76,62 @@ export default function HomePageComponent() {
         <hr />
       </section>
 
-      <section className="grid_homepage">
-        <div className="grid-item-1">
-          <h2>test</h2>
-        </div>
+      <section className="section_info">
+        <h2>test</h2>
 
-        <div className="grid-item-2">
-          <div className="grid_circle">
+        <div className="info_wrapper">
+          <div className="info_circle">
             <img src={you} alt="whats_app_svg" />
           </div>
-          <div className="grid_title">
-            <h3>test</h3>
-          </div>
-          <div className="grid_text">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim
-              amet dolor, eligendi earum, magnam nostrum architecto corporis
-              blanditiis, consequuntur voluptatem ad autem officiis aut. Saepe
-              porro deleniti vel sunt repellat.
-            </p>
-          </div>
-        </div>
+          <h3>test</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim amet
+            dolor, eligendi earum, magnam nostrum architecto corporis
+            blanditiis, consequuntur voluptatem ad autem officiis aut. Saepe
+            porro deleniti vel sunt repellat.
+          </p>
 
-        <div className="grid-item-3">
-          <div className="grid_circle">
+          <div className="info_circle">
             <img src={taxi} alt="whats_app_svg" />
           </div>
-          <div className="grid_title">
-            <h3>test</h3>
-          </div>
-          <div className="grid_text">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim
-              amet dolor, eligendi earum, magnam nostrum architecto corporis
-              blanditiis, consequuntur voluptatem ad autem officiis aut. Saepe
-              porro deleniti vel sunt repellat.
-            </p>
-          </div>
-        </div>
+          <h3>test</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim amet
+            dolor, eligendi earum, magnam nostrum architecto corporis
+            blanditiis, consequuntur voluptatem ad autem officiis aut. Saepe
+            porro deleniti vel sunt repellat.
+          </p>
 
-        <div className="grid-item-4">
-          <div className="grid_circle">
+          <div className="info_circle">
             <img src={transfer} alt="whats_app_svg" />
           </div>
-          <div className="grid_title">
-            <h3>test</h3>
-          </div>
-          <div className="grid_text">
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim
-              amet dolor, eligendi earum, magnam nostrum architecto corporis
-              blanditiis, consequuntur voluptatem ad autem officiis aut. Saepe
-              porro deleniti vel sunt repellat.
-            </p>
-          </div>
+          <h3>test</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim amet
+            dolor, eligendi earum, magnam nostrum architecto corporis
+            blanditiis, consequuntur voluptatem ad autem officiis aut. Saepe
+            porro deleniti vel sunt repellat.
+          </p>
         </div>
       </section>
 
-      <section className="grid-container">
-        <div className="grid-container-item-1">
+      <section className="grid_sub_info">
+        <div className="grid_sub_info_item">
+          <div className="grid_sub_info_img_container">
+            <img src={golf} alt="whats_app_svg" />
+          </div>
+        </div>
+
+        <div className="grid_sub_info_item">
+          <div className="grid_sub_info_img_container">
+            <img src={park} alt="whats_app_svg" />
+          </div>
+        </div>
+
+        <div className="grid_sub_info_item">
           <h2>Test</h2>
         </div>
-        <div className="grid-container-item-2">
+        <div className="grid_sub_info_item">
           <p>
             Our Travel Agency has been in the private transportation market
             since 2007, with a multidisciplinary team dedicated to providing the
@@ -150,19 +139,7 @@ export default function HomePageComponent() {
             rentals for holidays in Portimão and various experiences.
           </p>
         </div>
-
-        <div className="grid-container-item-3">
-          <div className="grid-contianer-img-container">
-            <img src={golf} alt="whats_app_svg" />
-          </div>
-        </div>
-        <div className="grid-container-item-4">
-          <div className="grid-contianer-img-container">
-            <img src={park} alt="whats_app_svg" />
-          </div>
-        </div>
       </section>
-
 
       {/* <section  className="google-comments-container">
         
