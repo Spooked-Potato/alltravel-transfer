@@ -1,6 +1,6 @@
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import HomePage from "./pages/Homepage";
+import HomePage from "./pages/HomePage";
 import ThankYou from "./pages/ThankYou";
 import BookingPage from "./pages/BookingPage";
 import BookingTransferInfoComponent from "./components/Booking/BookingTransferInfoComponent";

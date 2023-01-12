@@ -25,7 +25,7 @@ export default function CardSwipper() {
               slidesPerView: 2,
             },
         // when window width is >= 1024px
-            1024: {
+            1200: {
               spaceBetween: 30,
               slidesPerView: 3,
               slidesPerGroup: 3,

@@ -20,22 +20,39 @@ export default function HomePage() {
       {/* <NavbarComponent /> */}
 
       <header>
-        <div className="form_header_container">
-          <form>
+        <form>
+          <div className="header_form_item">
             <label>Where you coming from?</label>
             <input />
+          </div>
+          <div className="header_form_item">
             <label>Where are you going to?</label>
             <input />
+          </div>
+          <div className="header_form_item">
             <label>Number of People</label>
             <input />
+          </div>
+          <div className="header_form_item">
             <label>Date</label>
             <input />
-            <label>Add Return</label>
+          </div>
+          <div className="header_form_item">
             <input type="checkbox" />
-            <button>Book Now</button>
-            <button>What's App</button>
-          </form>
-        </div>
+            <label>Add Return</label>
+          </div>
+          <button type="submit" id="submit_home">
+            Book Now
+          </button>
+          <a
+            target="_blank"
+            rel="noreferrer"
+            id="whatsapp_button"
+            href="https://api.whatsapp.com/send/?phone=351968317170&text&type=phone_number&app_absent=0"
+          >
+            WhatsApp
+          </a>
+        </form>
       </header>
 
       <section className="main_section">
@@ -57,7 +74,7 @@ export default function HomePage() {
             </p>
           </div>
           <div className="main_container">
-            <img src={loja} alt="whats_app_svg" />
+            <img loading="lazy " src={loja} alt="whats_app_svg" />
           </div>
         </div>
       </section>
@@ -90,7 +107,7 @@ export default function HomePage() {
           </div>
 
           <div className="info_container">
-            <img src={taxi} alt="whats_app_svg" />
+            <img loading="lazy" src={taxi} alt="whats_app_svg" />
             <h3>test</h3>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim
@@ -101,7 +118,7 @@ export default function HomePage() {
           </div>
 
           <div className="info_container">
-            <img src={transfer} alt="whats_app_svg" />
+            <img loading="lazy" src={transfer} alt="whats_app_svg" />
             <h3>test</h3>
             <p>
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim
@@ -115,8 +132,8 @@ export default function HomePage() {
 
       <section className="sub_info_wrapper">
         <div className="sub_info_container">
-          <img src={golf} alt="whats_app_svg" />
-          <img src={park} alt="whats_app_svg" />
+          <img loading="lazy" src={golf} alt="whats_app_svg" />
+          <img loading="lazy" src={park} alt="whats_app_svg" />
         </div>
         <div className="sub_info_container">
           <h2>Test</h2>

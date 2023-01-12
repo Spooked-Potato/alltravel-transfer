@@ -18,29 +18,32 @@ header {
   background-position: center center;
   background-repeat: no-repeat;
   overflow: hidden;
-
   min-height: 60vh;
+  display: flex;
+  align-items: center;
 }
 
-.form_header_container {
-  background-color: var(--main-bg-color);
-  width: clamp(30rem, 40vw, 60rem);
-  max-height: 20rem;
+header form {
+  background-color: rgba(6, 73, 160, 0.9);
+  padding: 2rem;
+  width: 100%;
 }
 
-/* .form_header_container form {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  column-gap: 2rem;
-  color: white;
+.header_form_item {
+  padding: 1rem;
 }
 
-.form_header_container form input {
-  width: 40%;
+header form input {
+  width: 100%;
   padding: 0.5rem;
   border: 1px solid #ccc;
   border-radius: 4px;
-} */
+}
+
+input[type="checkbox"] {
+  width: 10%;
+  height: 2rem;
+}
 
 .main_container img {
   width: 100%;
@@ -105,12 +108,23 @@ hr {
   max-width: 35rem;
   height: auto;
   margin: 1rem 0;
+  margin-left: auto;
+  margin-right: auto;
   box-shadow: 0px 10px 12px var(--shadow-color);
 }
 
 @media only screen and (min-width: 40em) {
   :is(.main_wrapper, .info_wrapper) {
     display: flex;
+  }
+
+  header form {
+    margin: 2rem;
+  }
+
+  header form {
+    width: 40rem;
+    border-radius: 1rem;
   }
 
   .main_wrapper {
@@ -138,7 +152,7 @@ hr {
 
   .sub_info_wrapper {
     display: grid;
-    grid-template-columns: 1fr 40%;
+    grid-template-columns: 1fr 40vw;
     gap: 5rem;
   }
 
@@ -157,3 +171,81 @@ hr {
     margin: 0 auto;
   }
 }
+
+/* form {
+  width: 70%;
+  height: auto;
+  background-color: var(--main-bg-color);
+  border-radius: 1rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.form-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  row-gap: 1rem;
+  column-gap: 1rem;
+  color: var(--white-color);
+}
+
+.form-grid-item {
+  padding: 0.5rem;
+}
+
+.form-grid-item select,
+.form-grid-item input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-grid-item button {
+  width: 70%;
+  background-color: var(--button-bg-color);
+  border: var(--button-bg-color) 2px solid;
+  color: var(--text-color);
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-size: clamp(0.5rem, 1vw, 1.25rem);
+  font-weight: bold;
+  text-align: center;
+  height: 2rem;
+}
+
+.form-grid-item button:hover {
+  background-color: var(--white-color);
+}
+
+.form-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-flex-container {
+  width: 25%;
+}
+
+.form-flex-container > label {
+  width: 100%;
+  color: var(--white-color);
+  white-space: nowrap;
+  font-size: clamp(0.6rem, 1vw, 1.25rem);
+}
+.form-flex-container > input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.space_form {
+  padding: 2rem;
+}
+
+.space_form h1 {
+  text-align: center;
+  font-size: clamp(0.75rem, 2vw, 1.75rem);
+} */

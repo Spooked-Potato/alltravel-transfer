@@ -105,10 +105,42 @@ h3 {
   font-size: clamp(1.8em, 2vw, 2.3rem);
 }
 
-label,
-button,
-a,
-p {
+:is(label, button, a, p) {
   font-size: clamp(1.6em, 1.8vw, 2rem);
   font-weight: 400;
+}
+
+label {
+  width: 90%;
+  color: var(--white-color);
+}
+
+/*buttons*/
+
+:is(#submit_home, #whatsapp_button) {
+  border-radius: 4px;
+  font-weight: 600;
+  color: #fff;
+  width: 100%;
+}
+
+#submit_home:is(:hover, :focus),
+#whatsapp_button:is(:hover, :focus) {
+  background-color: white;
+  color: var(--text-color);
+  transition: 0.3s;
+  transform: scale(1.05);
+}
+
+#submit_home {
+  border: #237ca9;
+  background-color: var(--second-bg-color);
+}
+
+#whatsapp_button {
+  border: #68d567;
+  display: inline-block;
+  margin-top: 1rem;
+  text-align: center;
+  background-color: var(--whats-button-color);
 }
