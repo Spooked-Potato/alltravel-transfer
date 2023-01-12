@@ -1,10 +1,10 @@
 import React from "react";
 
-import NavbarComponent from "../NavbarComponent";
-import FooterComponent from "../FooterComponent";
-import BookingTransferInfoComponent from "./BookingTransferInfoComponent";
+import NavbarComponent from "../components/NavbarComponent";
+import FooterComponent from "../components/FooterComponent";
+import BookingTransferInfoComponent from "../components/Booking/BookingTransferInfoComponent";
 
-export default function BookingPageComponent() {
+export default function BookingPage() {
   return (
     <>
       <NavbarComponent />

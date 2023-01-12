@@ -1,8 +1,8 @@
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import HomePageComponent from "./components/HomepageComponent";
-import ThankYouComponent from "./components/ThankYouComponent";
-import BookingPageComponent from "./components/Booking/BookingPageComponent";
+import HomePage from "./pages/Homepage";
+import ThankYou from "./pages/ThankYou";
+import BookingPage from "./pages/BookingPage";
 import BookingTransferInfoComponent from "./components/Booking/BookingTransferInfoComponent";
 
 function App() {
@@ -10,9 +10,9 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<HomePageComponent />} />
-          <Route path="/thankyou" element={<ThankYouComponent />} />
-          <Route path="/booking" element={<BookingPageComponent />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/thankyou" element={<ThankYou />} />
+          <Route path="/booking" element={<BookingPage />} />
           <Route path="/1" element={<BookingTransferInfoComponent />} />
         </Routes>
       </BrowserRouter>

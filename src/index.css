@@ -33,6 +33,7 @@ video {
 }
 
 body {
+  max-width: 100%;
   min-height: 100vh;
 }
 
@@ -70,4 +71,44 @@ body {
 
 .swiper-container {
   width: 480px;
+}
+
+:where(.main_section, .section_card, .section_info, .sub_info_wrapper) {
+  padding: 2rem;
+  text-align: justify;
+}
+
+:where(h1, h2, h3) {
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 2rem 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: clamp(2.5em, 3vw, 3.5rem);
+}
+
+h2 {
+  font-size: clamp(2rem, 2.5vw, 3rem);
+}
+
+h3 {
+  font-size: clamp(1.8em, 2vw, 2.3rem);
+}
+
+label,
+button,
+a,
+p {
+  font-size: clamp(1.6em, 1.8vw, 2rem);
+  font-weight: 400;
 }

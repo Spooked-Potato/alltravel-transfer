@@ -1,8 +1,8 @@
 import React from "react";
-import NavbarComponent from "./NavbarComponent";
-import FooterComponent from "./FooterComponent";
+import NavbarComponent from "../components/NavbarComponent";
+import FooterComponent from "../components/FooterComponent";
 
-export default function ThankYouComponent() {
+export default function ThankYou() {
   return (
     <>
       <NavbarComponent />
