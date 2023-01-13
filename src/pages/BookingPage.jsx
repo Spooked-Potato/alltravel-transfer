@@ -1,48 +1,51 @@
 import React from "react";
 
-import NavbarComponent from "../components/NavbarComponent";
-import FooterComponent from "../components/FooterComponent";
+
+// import NavbarComponent from "../components/NavbarComponent";
+// import FooterComponent from "../components/FooterComponent";
 import BookingTransferInfoComponent from "../components/Booking/BookingTransferInfoComponent";
 
 export default function BookingPage() {
   return (
     <>
-      <NavbarComponent />
-      <div className="space_form">
+      {/* <NavbarComponent /> */}
         <h1>Booking Form</h1>
-      </div>
-      <div className="space_form">
-        <form>
+     <section className="form_grid">
+        <form className="form_wrapper">
           <h2>Personal Information</h2>
-          <div className="form-group">
+
+      
             <div className="form-grid-item">
               <label>Name</label>
               <input type="text" name="name" placeholder="Name" />
             </div>
+
             <div className="form-grid-item">
               <label>Telephone</label>
               <input type="tel" name="tel" placeholder="Telephone Number" />
             </div>
+
             <div className="form-grid-item">
               <label>Email</label>
               <input type="email" name="email" placeholder="Email" />
             </div>
-          </div>
+     
         </form>
-      </div>
 
-      <div className="space_form">
+
+
         <BookingTransferInfoComponent heading={"Transfer Information"} />
-      </div>
+        <BookingTransferInfoComponent heading={"Transfer Information"} />
+  
 
-      <div className="space_form">
-        <form>
+        <form className="form_wrapper">
           <h2>Extra Information</h2>
-          <div className="form-group">
+         
             <div className="form-grid-item">
               <label>Price</label>
               <input type="text" name="price" placeholder="Price" />
             </div>
+
             <div className="form-grid-item">
               <label>Payment Method</label>
               <input
@@ -51,6 +54,7 @@ export default function BookingPage() {
                 placeholder="Payment Method"
               />
             </div>
+
             <div className="form-grid-item">
               <label>Where did you find us?</label>
               <select name="Where did you find us?" id="lang" required>
@@ -66,6 +70,7 @@ export default function BookingPage() {
                 <option value="Other">Other</option>
               </select>
             </div>
+            
             <div className="form-grid-item">
               <label>Extra Comments</label>
               <input
@@ -77,10 +82,9 @@ export default function BookingPage() {
             <div className="form-grid-item">
               <button type="submit">Submit</button>
             </div>
-          </div>
         </form>
-      </div>
-      <FooterComponent />
+        </section>
+      {/* <FooterComponent /> */}
     </>
   );
 }

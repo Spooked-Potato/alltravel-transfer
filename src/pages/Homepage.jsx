@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 
 //components
 // import FooterComponent from "../components/FooterComponent";
 // import NavbarComponent from "../components/NavbarComponent";
 import CardSwipper from "../components/CardSwipper";
 // import BookingForm from "./BookingFormComponent";
+
 
 //images
 import taxi from "../assets/img-normal/you.png";
@@ -14,7 +15,8 @@ import loja from "../assets/img-normal/loja.jpg";
 import golf from "../assets/img-normal/private-golf-transfers-algarve.png";
 import park from "../assets/img-normal/transport-aquatic-park-algarve.png";
 
-export default function HomePage() {
+export function HomePage() {
+
   return (
     <>
       {/* <NavbarComponent /> */}
@@ -22,26 +24,37 @@ export default function HomePage() {
       <header>
         <form>
           <div className="header_form_item">
-            <label>Where you coming from?</label>
+            <label>From</label>
             <input />
           </div>
           <div className="header_form_item">
-            <label>Where are you going to?</label>
+            <label>To</label>
             <input />
           </div>
           <div className="header_form_item">
             <label>Number of People</label>
-            <input />
+            <select name="Where did you find us?" id="number">
+              <option value="numer-of-people-1">1</option>
+              <option value="numer-of-people-2">2</option>
+              <option value="numer-of-people-3">3</option>
+              <option value="numer-of-people-4">4</option>
+              <option value="numer-of-people-5">5</option>
+              <option value="numer-of-people-6">6</option>
+              <option value="numer-of-people-7">7</option>
+              <option value="numer-of-people-8">8</option>
+              <option value="numer-of-people-9">9+</option>
+            </select>
           </div>
           <div className="header_form_item">
             <label>Date</label>
-            <input />
-          </div>
+            <input type="date"
+        value="dd/MM/yyyy"/>
+      </div>
           <div className="header_form_item">
             <input type="checkbox" />
             <label>Add Return</label>
           </div>
-          <button type="submit" id="submit_home">
+          <button type="submit">
             Book Now
           </button>
           <a

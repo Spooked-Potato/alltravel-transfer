@@ -3,9 +3,9 @@ import React from "react";
 export default function BookingTransferInfoComponent({ heading }) {
   return (
     <>
-      <form>
+      <form className="form_wrapper">
         <h2>{heading}</h2>
-        <div className="form-group">
+        
           <div className="form-grid-item">
             <label>Date</label>
             <input type="date" name="date" placeholder="Date" />
@@ -19,14 +19,17 @@ export default function BookingTransferInfoComponent({ heading }) {
               placeholder="Number of People"
             />
           </div>
+
           <div className="form-grid-item">
             <label>From</label>
             <input type="text" name="from" placeholder="from" />
           </div>
+
           <div className="form-grid-item">
             <label>To</label>
             <input type="text" name="To" placeholder="to" />
           </div>
+
           <div className="form-grid-item">
             <label>Flight Number</label>
             <input
@@ -35,10 +38,12 @@ export default function BookingTransferInfoComponent({ heading }) {
               placeholder="Flight Number"
             />
           </div>
+
           <div className="form-grid-item">
             <label>Arrival Time</label>
             <input type="time" name="time" placeholder="Arrival Time" />
           </div>
+
           <div className="form-grid-item">
             <label>Apartment or Hotel</label>
             <input
@@ -47,6 +52,7 @@ export default function BookingTransferInfoComponent({ heading }) {
               placeholder="Apartment or Hotel"
             />
           </div>
+          
           <div className="form-grid-item">
             <div className="form-flex">
               <div className="form-flex-container">
@@ -68,7 +74,6 @@ export default function BookingTransferInfoComponent({ heading }) {
               </div>
             </div>
           </div>
-        </div>
       </form>
     </>
   );
