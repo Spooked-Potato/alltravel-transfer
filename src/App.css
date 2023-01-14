@@ -118,6 +118,9 @@ hr {
   background-color: var(--main-bg-color);
   margin: 2rem auto;
   padding: 2rem;
+}
+
+.form_wrapper h2 {
   color: white;
 }
 

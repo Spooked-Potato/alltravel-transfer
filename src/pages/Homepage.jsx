@@ -3,9 +3,12 @@ import React, { useState } from "react";
 //components
 // import FooterComponent from "../components/FooterComponent";
 // import NavbarComponent from "../components/NavbarComponent";
-import CardSwipper from "../components/CardSwipper";
 // import BookingForm from "./BookingFormComponent";
+import CardSwipper from "../components/CardSwipper";
 
+//imports 
+import DatePicker from "react-datepicker";
+import "react-datepicker/dist/react-datepicker.css";
 
 //images
 import taxi from "../assets/img-normal/you.png";
@@ -17,6 +20,7 @@ import park from "../assets/img-normal/transport-aquatic-park-algarve.png";
 
 export function HomePage() {
 
+  const [startDate, setStartDate] = useState(new Date());
   return (
     <>
       {/* <NavbarComponent /> */}
@@ -47,8 +51,10 @@ export function HomePage() {
           </div>
           <div className="header_form_item">
             <label>Date</label>
-            <input type="date"
-        value="dd/MM/yyyy"/>
+            <DatePicker
+        selected={startDate}
+        onChange={(date) => setStartDate(date)}
+      />
       </div>
           <div className="header_form_item">
             <input type="checkbox" />

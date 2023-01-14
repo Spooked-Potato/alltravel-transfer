@@ -42,13 +42,13 @@ export default function CardSwipper() {
         className="mySwiper"
       >
         {slice.map((element) => (
-          <SwiperSlide key={element.id} Name={element.name} text={element.text}>
+          <SwiperSlide key={element.id} Name={element.place} text={element.text}>
             <div
               className="cardSwiper"
               style={{ backgroundImage: `url(${element.image})` }}
               alt="Citys in the Algarve"
             >
-              <div className="cardName">{element.name}</div>
+              <div className="cardName">{element.place}</div>
               <div className="cardText">{element.text}</div>
             </div>
           </SwiperSlide>

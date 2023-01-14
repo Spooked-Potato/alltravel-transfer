@@ -1,63 +1,63 @@
 export const data = [
   {
     id: 1,
-    name: "ola",
+    place: "ola",
     text: "dhdjidoçd",
     image: require("../assets/img-normal/loja.jpg"),
   },
 
   {
     id: 2,
-    name: "ola",
+    place: "ola",
     text: "dhdjidoçd",
     image: require("../assets/img-normal/loja.jpg"),
   },
 
   {
     id: 3,
-    name: "ola",
+    place: "ola",
     text: "dhdjidoçd",
     image: require("../assets/img-normal/loja.jpg"),
   },
 
   {
     id: 4,
-    name: "ola",
+    place: "ola",
     text: "dhdjidoçd",
     image: require("../assets/img-normal/loja.jpg"),
   },
 
   {
     id: 5,
-    name: "ola",
+    place: "ola",
     text: "dhdjidoçd",
     image: require("../assets/img-normal/loja.jpg"),
   },
 
   {
     id: 6,
-    name: "ola",
+    place: "ola",
     text: "dhdjidoçd",
     image: require("../assets/img-normal/loja.jpg"),
   },
 
   {
     id: 7,
-    name: "ola",
+    place: "ola",
     text: "dhdjidoçd",
     image: require("../assets/img-normal/loja.jpg"),
   },
 
   {
     id: 8,
-    name: "ola",
+    place: "ola",
     text: "dhdjidoçd",
     image: require("../assets/img-normal/loja.jpg"),
   },
 
   {
     id: 9,
-    name: "ola",
+    place: "ola",
     text: "dhdjidoçd",
     image: require("../assets/img-normal/loja.jpg"),
   },

@@ -10,7 +10,7 @@ export function CardGrid() {
           <CardComponent
             key={element.id}
             Image={element.image}
-            Name={element.name}
+            Name={element.place}
             text={element.text}
           />
         ))}
