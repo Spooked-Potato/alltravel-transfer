@@ -3,9 +3,9 @@ import React from "react";
 export default function BookingForm() {
   return (
     <>
-      <form>
+ 
         <select name="location" id="location">
-          <option value="Airport">Airport</option>
+          <option value="Airport">Faro Airport</option>
           <option value="Açoteias">Açoteias</option>
           <option value="Albufeira">Albufeira</option>
           <option value="Algoz">Algoz</option>
@@ -59,7 +59,7 @@ export default function BookingForm() {
           <option value="Sevilha">Sevilha</option>
           <option value="Pedras-del-Ray">Pedras del Ray</option>
         </select>
-      </form>
+  
     </>
   );
 }

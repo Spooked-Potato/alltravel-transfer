@@ -121,7 +121,7 @@ label {
 
 /*buttons*/
 
-:is(#whatsapp_button, button) {
+:is(#whatsapp_button, .button) {
   border-radius: 4px;
   font-weight: 600;
   color: #fff;
@@ -129,7 +129,7 @@ label {
   text-transform: uppercase;
 }
 
-button {
+.button {
   background-color: #237ca9;
   border: #237ca9;
 }
@@ -142,7 +142,7 @@ button {
   background-color: var(--whats-button-color);
 }
 
-button:is(:hover, :focus),
+.button:is(:hover, :focus),
 #whatsapp_button:is(:hover, :focus) {
   background-color: white;
   color: var(--text-color) !important;
@@ -150,3 +150,25 @@ button:is(:hover, :focus),
   transform: scale(1.05);
   cursor: pointer;
 }
+
+
+
+/*Nav & Footer effect*/
+.underline_effect {
+  text-decoration: none;
+  --s: 0.25rem; /* the thickness of the line */
+  --c: var(--white-color); /* the color */
+
+  color: var(--white-color);
+  padding-bottom: var(--s);
+  background: linear-gradient(90deg, var(--c) 50%, #000 0)
+      calc(100% - var(--_p, 0%)) / 200% 100%,
+    linear-gradient(var(--c) 0 0) 0% 100% / var(--_p, 0%) var(--s) no-repeat;
+  -webkit-background-clip: text, padding-box;
+  background-clip: text, padding-box;
+  transition: 0.5s;
+}
+.underline_effect:hover {
+  --_p: 100%;
+}
+/*Nav & Footer effect*/

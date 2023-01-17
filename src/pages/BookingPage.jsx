@@ -13,8 +13,6 @@ export default function BookingPage() {
      <section className="form_grid">
         <form className="form_wrapper">
           <h2>Personal Information</h2>
-
-      
             <div className="form-grid-item">
               <label>Name</label>
               <input type="text" name="name" placeholder="Name" />
@@ -29,14 +27,10 @@ export default function BookingPage() {
               <label>Email</label>
               <input type="email" name="email" placeholder="Email" />
             </div>
-     
         </form>
 
-
-
         <BookingTransferInfoComponent heading={"Transfer Information"} />
-        <BookingTransferInfoComponent heading={"Transfer Information"} />
-  
+        <BookingTransferInfoComponent heading={"Return Information"} /> 
 
         <form className="form_wrapper">
           <h2>Extra Information</h2>
@@ -80,9 +74,15 @@ export default function BookingPage() {
               />
             </div>
             <div className="form-grid-item">
-              <button type="submit">Submit</button>
+              <button type="submit" className="button">Send</button>
             </div>
         </form>
+
+
+    
+  
+
+     
         </section>
       {/* <FooterComponent /> */}
     </>

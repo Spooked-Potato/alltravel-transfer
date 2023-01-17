@@ -7,11 +7,11 @@ export default function FooterComponent() {
   return (
     <>
       <footer>
-        <div className="grid-footer-item-1">
+        <div className="footer_container">
             <img src={logo} alt="logo_alltravel" />
         </div>
 
-        <div className="grid-footer-item-2">
+        <div className="footer_container">
           <ul>
             <h2>test</h2>
             <li className="underline_effect">
@@ -36,7 +36,7 @@ export default function FooterComponent() {
           </ul>
         </div>
 
-        <div className="grid-footer-item-3">
+        <div className="footer_container">
           <ul>
             <h2>test</h2>
             <li className="underline_effect">
@@ -53,7 +53,7 @@ export default function FooterComponent() {
           </ul>
         </div>
 
-        <div className="grid-footer-item-4">
+        <div className="footer_container">
           <ul>
             <h2>test</h2>
             <li className="underline_effect">
@@ -78,7 +78,7 @@ export default function FooterComponent() {
           </ul>
         </div>
 
-        <div className="grid-footer-item-5">
+        <div className="footer_container">
           <ul>
             <h2>test</h2>
             <li className="underline_effect">

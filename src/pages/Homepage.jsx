@@ -1,16 +1,17 @@
 import React, { useState } from "react";
 
-//components
+// components
 // import FooterComponent from "../components/FooterComponent";
 // import NavbarComponent from "../components/NavbarComponent";
-// import BookingForm from "./BookingFormComponent";
+import BookingForm from "../components/Booking/BookingFormComponent";
+import DatePicker from "react-datepicker";
 import CardSwipper from "../components/CardSwipper";
 
-//imports 
-import DatePicker from "react-datepicker";
+
+// imports
 import "react-datepicker/dist/react-datepicker.css";
 
-//images
+// images
 import taxi from "../assets/img-normal/you.png";
 import you from "../assets/img-normal/taxi.png";
 import transfer from "../assets/img-normal/airport-transfer.png";
@@ -19,7 +20,6 @@ import golf from "../assets/img-normal/private-golf-transfers-algarve.png";
 import park from "../assets/img-normal/transport-aquatic-park-algarve.png";
 
 export function HomePage() {
-
   const [startDate, setStartDate] = useState(new Date());
   return (
     <>
@@ -29,11 +29,11 @@ export function HomePage() {
         <form>
           <div className="header_form_item">
             <label>From</label>
-            <input />
+              <BookingForm/>
           </div>
           <div className="header_form_item">
             <label>To</label>
-            <input />
+              <BookingForm/>
           </div>
           <div className="header_form_item">
             <label>Number of People</label>
@@ -49,20 +49,23 @@ export function HomePage() {
               <option value="numer-of-people-9">9+</option>
             </select>
           </div>
+
           <div className="header_form_item">
             <label>Date</label>
             <DatePicker
-        selected={startDate}
-        onChange={(date) => setStartDate(date)}
-      />
-      </div>
+              dateFormat="dd/MM/yyyy"
+              selected={startDate}
+              minDate={new Date()}
+              onChange={(date) => setStartDate(date)}
+            />
+
+
+          </div>
           <div className="header_form_item">
             <input type="checkbox" />
             <label>Add Return</label>
           </div>
-          <button type="submit">
-            Book Now
-          </button>
+          <button type="submit" className="button">Book Now</button>
           <a
             target="_blank"
             rel="noreferrer"
