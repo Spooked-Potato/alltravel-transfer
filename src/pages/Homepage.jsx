@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 // components
-// import FooterComponent from "../components/FooterComponent";
+import FooterComponent from "../components/FooterComponent";
 // import NavbarComponent from "../components/NavbarComponent";
 import BookingForm from "../components/Booking/BookingFormComponent";
 import DatePicker from "react-datepicker";
@@ -172,7 +172,7 @@ export function HomePage() {
         
       </section> */}
 
-      {/* <FooterComponent /> */}
+      <FooterComponent />
     </>
   );
 }

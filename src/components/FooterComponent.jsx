@@ -7,7 +7,7 @@ export default function FooterComponent() {
   return (
     <>
       <footer>
-        <div className="footer_container">
+        <div className="footer_container img_container">
             <img src={logo} alt="logo_alltravel" />
         </div>
 
