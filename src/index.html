@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/App.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <title>Alltravel transfers</title>
+  </head>
+  <body>
+    <header>
+      <form>
+        <div class="header_form_item">
+          <label>From</label>
+          <input type="text" />
+        </div>
+        <div class="header_form_item">
+          <label>To</label>
+          <input type="text" />
+        </div>
+        <div class="header_form_item">
+          <label>Number of People</label>
+          <select name="Where did you find us?" id="number">
+            <option value="numer-of-people-1">1</option>
+            <option value="numer-of-people-2">2</option>
+            <option value="numer-of-people-3">3</option>
+            <option value="numer-of-people-4">4</option>
+            <option value="numer-of-people-5">5</option>
+            <option value="numer-of-people-6">6</option>
+            <option value="numer-of-people-7">7</option>
+            <option value="numer-of-people-8">8</option>
+            <option value="numer-of-people-9">9+</option>
+          </select>
+        </div>
+
+        <div class="header_form_item">
+          <label>Date</label>
+          <input type="date" />
+        </div>
+        <div class="header_form_item">
+          <input type="checkbox" />
+          <label>Add Return</label>
+        </div>
+
+        <div id="price">00</div>
+        <button type="submit" class="button">Book Now</button>
+        <a
+          target="_blank"
+          rel="noreferrer"
+          id="whatsapp_button"
+          href="https://api.whatsapp.com/send/?phone=351968317170&text&type=phone_number&app_absent=0"
+        >
+          WhatsApp
+        </a>
+      </form>
+    </header>
+
+    <section class="main_section">
+      <h1>
+        Faro Airport Transfer service, thinking about you and your family.
+      </h1>
+
+      <div class="main_wrapper">
+        <div class="main_container">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim amet
+            dolor, eligendi earum, magnam nostrum architecto corporis
+            blanditiis, consequuntur voluptatem ad autem officiis aut. Saepe
+            porro deleniti vel sunt repellat. Lorem ipsum, dolor sit amet
+            consectetur adipisicing elit. Enim amet dolor, eligendi earum,
+            magnam nostrum architecto corporis blanditiis, consequuntur
+            voluptatem ad autem officiis aut. Saepe porro deleniti vel sunt
+            repellat.
+          </p>
+        </div>
+        <div class="main_container">
+          <img
+            loading="lazy "
+            src="assets/img-normal/loja.jpg"
+            alt="whats_app_svg"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="section_card">
+      <h2>Some destanations YOU should vist</h2>
+      <div class="card_container">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="cardSwiper" alt="Citys in the Algarve">
+                <div className="cardName">{element.place}</div>
+                <div className="cardText">{element.text}</div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="cardSwiper" alt="Citys in the Algarve">
+                <div className="cardName">{element.place}</div>
+                <div className="cardText">{element.text}</div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="cardSwiper" alt="Citys in the Algarve">
+                <div className="cardName">{element.place}</div>
+                <div className="cardText">{element.text}</div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="cardSwiper" alt="Citys in the Algarve">
+                <div className="cardName">{element.place}</div>
+                <div className="cardText">{element.text}</div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="cardSwiper" alt="Citys in the Algarve">
+                <div className="cardName">{element.place}</div>
+                <div className="cardText">{element.text}</div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="cardSwiper" alt="Citys in the Algarve">
+                <div className="cardName">{element.place}</div>
+                <div className="cardText">{element.text}</div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="cardSwiper" alt="Citys in the Algarve">
+                <div className="cardName">{element.place}</div>
+                <div className="cardText">{element.text}</div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="cardSwiper" alt="Citys in the Algarve">
+                <div className="cardName">{element.place}</div>
+                <div className="cardText">{element.text}</div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="autoplay-progress">
+            <svg viewBox="0 0 48 48">
+              <circle cx="24" cy="24" r="20"></circle>
+            </svg>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="hr_wrapper">
+      <hr />
+    </section>
+
+    <section class="section_info">
+      <h2>test</h2>
+
+      <div class="info_wrapper">
+        <div class="info_container">
+          <img src="assets/img-normal/taxi.png" alt="whats_app_svg" />
+
+          <h3>test</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim amet
+            dolor, eligendi earum, magnam nostrum architecto corporis
+            blanditiis, consequuntur voluptatem ad autem officiis aut. Saepe
+            porro deleniti vel sunt repellat.
+          </p>
+        </div>
+
+        <div class="info_container">
+          <img
+            loading="lazy"
+            src="assets/img-normal/you.png"
+            alt="whats_app_svg"
+          />
+          <h3>test</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim amet
+            dolor, eligendi earum, magnam nostrum architecto corporis
+            blanditiis, consequuntur voluptatem ad autem officiis aut. Saepe
+            porro deleniti vel sunt repellat.
+          </p>
+        </div>
+
+        <div class="info_container">
+          <img
+            loading="lazy"
+            src="assets/img-normal/airport-transfer.png"
+            alt="whats_app_svg"
+          />
+          <h3>test</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim amet
+            dolor, eligendi earum, magnam nostrum architecto corporis
+            blanditiis, consequuntur voluptatem ad autem officiis aut. Saepe
+            porro deleniti vel sunt repellat.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="sub_info_wrapper">
+      <div class="sub_info_container">
+        <img
+          loading="lazy"
+          src="assets/img-normal/private-golf-transfers-algarve.png"
+          alt="whats_app_svg"
+        />
+        <img
+          loading="lazy"
+          src="assets/img-normal/transport-aquatic-park-algarve.png"
+          alt="whats_app_svg"
+        />
+      </div>
+      <div class="sub_info_container">
+        <h2>Test</h2>
+        <p>
+          Our Travel Agency has been in the private transportation market since
+          2007, with a multidisciplinary team dedicated to providing the best
+          transfer service in the Algarve. Also, you can check our rentals for
+          holidays in Portimão and various experiences.
+        </p>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="components/SwipperComponent.js"></script>
+  </body>
+</html>

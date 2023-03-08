@@ -1,74 +1,65 @@
-# Getting Started with Create React App
+# Walks-site
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my first node-js project
+This website is about showing different types of walks you can do around the place, there is one page with adjustable content the rest is static.
+This project has a missing folder with images as such add your own images to make it work.
+This project was made with static content.
 
-This project has a missing folder with images as such add your own images to make it work
+## Project Desgin
 
-This is how the project is desgin:https://xd.adobe.com/view/059091b2-1dca-4182-b033-4e751709c723-50c3/
+    https://xd.adobe.com/view/cfc44827-f8b0-44e3-9476-fc341c43ebb4-9a97/
 
-## Available Scripts
+## Technologies
 
-In the project directory, you can run:
+The app is built using the following technologies:
 
-### `npm start`
+- HTML
+- CSS
+- JavaScript
+- Express JS
+- MySQL
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To install the project, follow these steps:
 
-### `npm test`
+    Clone the repository: https://github.com/Spooked-Potato/Walks-site.git
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Install the dependencies:
 
-### `npm run build`
+    npm i
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Then, update the .env file with your own environment variables.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Start the server:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+    npm run dev
 
-### `npm run eject`
+The server should now be running at http://localhost:3000.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+List of dependencies used in the project:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- express
+- mysql2S
+- body-parser
+- ejs
+- passport
+- Nodedemon
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Usage
 
-## Learn More
+**todo**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<!-- Instructions on how to use the project go here. Include examples of how to use the API, how to run tests, etc.
+Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Guidelines on how to contribute to the project go here.
+License
 
-### Code Splitting
+The license for the project goes here. -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Contributors
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project was created by [Spooked-Potato](https://github.com/Spooked-Potato)

@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>Card Hover Effect</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
+    <style>
+      :root {
+        font-size: 10px;
+      }
+
+      .container {
+        width: 40rem;
+      }
+
+      .cardSwiper {
+        height: 50rem;
+        width: 100%;
+        background-image: url("src/assets/img-normal/loja.jpg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-shadow: 0px 10px 12px var(--shadow-color);
+      }
+
+      .cardName {
+        background-color: #0649a0;
+        color: white;
+        height: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="cardSwiper" alt="Citys in the Algarve">
+        <div class="cardName">{element.place}</div>
+        <div class="cardText">{element.text}</div>
+      </div>
+    </div>
+  </body>
+</html>
