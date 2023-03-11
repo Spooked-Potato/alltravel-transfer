@@ -121,6 +121,12 @@
                 <div className="cardText">{element.text}</div>
               </div>
             </div>
+            <div class="swiper-slide">
+              <div class="cardSwiper" alt="Citys in the Algarve">
+                <div className="cardName">{element.place}</div>
+                <div className="cardText">{element.text}</div>
+              </div>
+            </div>
 
             <div class="swiper-slide">
               <div class="cardSwiper" alt="Citys in the Algarve">
@@ -237,7 +243,8 @@
       </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-    <script src="script.js"></script>
-    <script src="components/SwipperComponent.js"></script>
+    <script src="/src/services/JsonLocationService.js"></script>
+    <script src="/src/components/LocationSlideshow.js"></script>
+    <script src="/src/main.js"></script>
   </body>
 </html>
