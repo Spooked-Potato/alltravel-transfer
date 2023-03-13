@@ -1,6 +1,6 @@
 class LocationSlideshow {
   constructor(locationService) {
-    this.#locationService = locationService;
+    this.locationService = locationService;
     this.#init();
   }
 
@@ -64,7 +64,7 @@ class LocationSlideshow {
       throw new Error("there is no slideshow to render locations");
     }
 
-    const locations = await this.#locationService.getLocations();
+    const locations = await this.locationService.getLocations();
 
     const renderedLocations = locations
       .map(
