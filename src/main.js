@@ -1,5 +1,5 @@
 function initLocationSlideshow() {
-  const locationService = new JsonLocationService("/src/assets/locations.json");
+  const locationService = new JsonLocationService("/src/locations.json");
   const slideshow = new LocationSlideshow(locationService);
 }
 
